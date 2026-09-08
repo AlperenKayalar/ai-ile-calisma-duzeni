@@ -23,6 +23,8 @@ Bu belge, [gerçek deneyimden](03-gercek-deneyim.md) çıkarılmış **önerilen
 
 Bir kişi birkaç rol üstlenebilir; kayıt yine “kararı kim verdi, işi kim yaptı, kim neyi kontrol etti?” sorularına yanıt vermeli. İkinci AI'nın onayı tek başına müşteri/insan kabulü değildir.
 
+Yardımcı ayrı bir üretim aracı da olabilir. [Chrome yardımcıları örneğinde](08-chrome-yardimcilari.md) araç seçimi, verilecek girdi ve kontrol edilecek çıktı birlikte tanımlanır. Araca devredilen parça aynı işin [görev kartına](../sablonlar/yardimci-gorev-karti.md) döner; ana yürütücü sonuçları birleştirir.
+
 ## Uygulama sırası
 
 | Adım | Girdi | Yapılacak iş ve sorumlu | Çıktı | Geçiş ölçütü | Takılırsa |

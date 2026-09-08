@@ -45,4 +45,12 @@ Kullanıcının “işimi ve hayatımı kolaylaştırdı” deneyimi kendi beyan
 | [OpenAI: Model Context Protocol](https://learn.chatgpt.com/docs/extend/mcp?surface=cli) | Araç ve kaynaklara erişim; yerel ve web ortamı ayrımı |
 | [OpenAI: Scheduled tasks](https://learn.chatgpt.com/docs/automations?surface=app) | Zamanlanmış işlerin çalışma koşulları ve önce elle deneme |
 
-Araç kataloğundaki diğer ürünler için bu pakette yeni bir özellik veya fiyat karşılaştırması yapılmadı. Adları geçmiş çalışma kayıtlarındaki rolleriyle kullanıldı.
+İlk sürümde diğer ürünlerin adları geçmiş çalışma kayıtlarındaki rolleriyle kullanıldı; yeni bir özellik veya fiyat karşılaştırması yapılmadı.
+
+## 9 Eylül ek gözlemi — Chrome yardımcıları
+
+[Yeni bölüm](rehber/08-chrome-yardimcilari.md), kullanıcının açık Chrome sekmelerindeki yedi aracın sayfa içeriğine dayanır. Ollama kullanım sayfası; Higgsfield ana sayfası; Runway çalışma alanı; Tripo ana sayfası; Lovable mevcut proje önizlemesi; WASK ve Instantly başlangıç formları okundu. Bu kaynak, belirli tarih ve hesaptaki arayüz gözlemidir; özel hesap sayfaları dış okuyucunun erişebileceği kanıt değildir. Public bağlantılar yalnız ürünlerin genel adreslerine gider.
+
+Bu ek, ilk bölümün 8 Eylül kaynak kesitini değiştirmez. Önerilen görevler yeni yazılmış yöntemlerdir. Üretim, dışa aktarım, entegrasyon, gönderim veya performans sınaması yapılmadı. Ham tarayıcı dökümü ve özel bağlantılar pakete alınmadı.
+
+Higgsfield'ın resmî bağlantı sayfası ve CLI deposu ile Ollama'nın resmî Cloud belgesi ayrıca okundu; ilgili iddiaların yanında [yeni bölümde](rehber/08-chrome-yardimcilari.md) bağlantıları var. Belgelenmiş destek ile bu makinede çalıştırılmış bağlantı ayrı tutuldu.

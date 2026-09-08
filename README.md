@@ -51,6 +51,7 @@ Bu, deneyimin sadeleştirilmiş görünümüdür. Tam yöntemde kapsam, insan ka
 | Bütün düzeni anlamak | [Sistem haritası](rehber/02-sistem-haritasi.md) |
 | Bugünkü gerçek deneyimi görmek | [Kurulumdan dersler](rehber/03-gercek-deneyim.md) |
 | Hesap, içerik, haber ve reklam işlerini düzenlemek | [Platformlar](rehber/04-platformlar.md) |
+| Chrome'da açık yardımcıları belirli işe bağlamak | [Yedi araçla görev paylaşımı](rehber/08-chrome-yardimcilari.md) · [Görev kartı](sablonlar/yardimci-gorev-karti.md) |
 | Aynı yöntemi farklı işlerde kullanmak | [İş akışları](rehber/05-is-akislari.md) |
 | Codex ve bağlantıları gerektiğinde eklemek | [Araç ve bağlantı kurulumu](rehber/06-arac-ve-baglanti.md) |
 | Kopyalayıp doldurmak | [Şablonlar](sablonlar/README.md) · [Komutlar](komutlar/README.md) |

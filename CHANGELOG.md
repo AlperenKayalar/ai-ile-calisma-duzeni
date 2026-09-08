@@ -1,5 +1,13 @@
 # Sürüm geçmişi
 
+## Yayımlanmamış ek · 9 Eylül 2026
+
+- Chrome'da açık yedi yardımcı aracın arayüz gözlemi, önerilen görevleri ve deneme sınırları.
+- Ortak yardımcı görev kartı, devir komutu ve 10 dakikalık yayın uygulaması önerisi.
+- Ana rehber, platformlar ve tekrar protokolüne bağlantılar.
+
+Bu ek yerel taslaktır; yeni üretim, hesap kurulumu, API/MCP/CLI bağlantısı veya yayın yapılmadı. `VERSION` yayımlanmış 0.1 sürümünü göstermeye devam eder.
+
 ## 0.1 · 9 Eylül 2026
 
 İlk rehber paketi. Kaynak kesiti 8 Eylül 2026, 23.57 İstanbul.

@@ -21,3 +21,9 @@ Otomatik örüntü taraması her tür hassas bilgiyi bulma garantisi değildir. 
 ## Henüz sınanmayanlar
 
 Başka bir gerçek kişinin kendi hesaplarıyla bütün süreci uygulaması, gerçek müşteri kabulü, canlı platform işlemleri, gelir etkisi ve karşılaştırmalı zaman kazancı bu derlemede sınanmadı. İlk dış kullanıcı pilotunda [kabul kaydı](sablonlar/kabul-kaydi.md) ve [fayda kaydı](sablonlar/fayda-kaydi.md) kullanılabilir.
+
+## 9 Eylül Chrome eki
+
+Yedi aracın mevcut sayfa içeriği salt okunur incelendi. Bu erişim gözlemi üretim veya entegrasyon testi değildir. Yeni yardımcılar bölümü ve görev kartı bağımsız AI okuyucu tarafından ayrıca incelendi; gözlem, önerilen görev ve gerçek çıktı ayrımı kontrol edildi. Devir komutu tarayıcı dışındaki erişim yollarını da kapsayacak biçimde düzeltildi.
+
+Ekleme sırasında 36 dosyanın 32'si Markdown'dı; 98 depo içi bağlantı, kod bloğu dengesi ve seçili özel veri örüntüleri kontrol edildi. Kritik bulgu çıkmadı. Hesap/proje adresleri ve tarayıcı erişim belirteçleri kamu metnine taşınmadı. İlk okuyucu provası bu belge eklemesi için yeniden koşturulmadı; dış araçlara örnek üretim gönderilmedi.

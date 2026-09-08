@@ -17,6 +17,8 @@ Bu bölüm bir satın alma veya “en iyi araçlar” listesi değildir. Mevcut 
 
 Son üç satırdaki bir adın envanterde bulunması, aboneliğinin veya çalışan bağlantısının doğrulandığı anlamına gelmez. Kayıt içindeki hesapların tümünde içerik yayımlanmış da değildir. [Gerçek deneyim tablosu](03-gercek-deneyim.md) bu ayrımı korur.
 
+9 Eylül'deki ek [Chrome incelemesi](08-chrome-yardimcilari.md), açık yedi yardımcı aracın görülen arayüzünü ve hangi işi üstlenebileceğini ayrı kaydeder. Bu ek, erişim gözlemi ve önerilen görev paylaşımıdır; üretim veya entegrasyon testi değildir.
+
 ## İlk üç kanalını seç
 
 Bir **merkez** seç: insanların ne yaptığını anlayacağı profil, portföy veya web sayfası. Bir **dağıtım kanalı** seç: hedef kitlenle zaten temas kurduğun yer. Bir **iş veya geri dönüş kanalı** seç: talebin nereye geleceği.
