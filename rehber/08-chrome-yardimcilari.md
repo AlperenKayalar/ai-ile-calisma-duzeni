@@ -1,6 +1,6 @@
 # Açık araçları çalışma arkadaşına dönüştür
 
-**9 Eylül 2026 ek incelemesi · yerel taslak.** Kullanıcının Chrome'da açık araçları da düzene katma isteği üzerine hazırlandı. Bu bölüm, 8 Eylül tarihli deneyim kesitine sonradan eklenen ayrı bir gözlemdir.
+**9 Eylül 2026 ek incelemesi.** Kullanıcının Chrome'da açık araçları da düzene katma isteği üzerine hazırlandı. Bu bölüm, 8 Eylül tarihli deneyim kesitine sonradan eklenen ayrı bir gözlemdir.
 
 Ana yürütücü işi tarif eder, uygun araca sınırlı bir parça verir ve dönen sonucu aynı iş kaydında toplar. Görsel araca görsel brifi, video aracına hareket brifi, site aracına kullanıcı akışı gider. Sonucun kabulü iş sahibinde kalır.
 
