@@ -1,0 +1,17 @@
+# Kişisel çalışma ve erişim verileri yayın paketine dahil edilmez.
+.DS_Store
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*
+cookies*
+storage-state*
+auth.json
+config.toml
+private/
+work/
+node_modules/
+__pycache__/
+*.log

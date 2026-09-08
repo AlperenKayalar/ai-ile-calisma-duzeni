@@ -1,0 +1,17 @@
+# Görev brifi
+
+- İş adı / kimliği: [ ]
+- İş sahibi: [ ]
+- Hedef: [Bir cümlede yapılacak gerçek iş]
+- Hedef kitle / teslim alan: [ ]
+- Kullanılacak kaynaklar: [ ]
+- Güncel insan kararları: [ ]
+- Kapsama dahil: [ ]
+- Kapsam dışında: [ ]
+- Yürütücü / yardımcılar: [ ]
+- Çıktı ve konumu: [ ]
+- Kabul ölçütleri: [En fazla beş gözlenebilir sonuç]
+- Yayın hedefi ve işlem yetkisi: [Yerel taslak / belirli dış hedef / henüz belirlenmedi]
+- Gerçek son tarih ve dayanağı: [Varsa; önerilen süreyi ayrı yaz]
+- Eksik bilgi: [ ]
+- İlk sonraki adım: [ ]

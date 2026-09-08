@@ -1,0 +1,18 @@
+# İçerik kartı
+
+- İş / içerik kimliği: [ ]
+- Amaç ve hedef kitle: [ ]
+- Ana fikir: [ ]
+- Kaynak iş / belge: [ ]
+- Kanıtlı bulgular: [ ]
+- Kendi yorumumuz: [ ]
+- Varlıklar ve kullanılma hakkı: [ ]
+- Hedef kanal ve format: [ ]
+- Metin taslağı: [ ]
+- Yönlendirme: [İzleyici bundan sonra ne yapacak?]
+- Haber ise yayın tarihi / olay tarihi: [ ]
+- Durum: [Taslak / kontrol edildi / yayımlandı]
+- Kontrol eden ve kontrol notu: [ ]
+- Gerçek yayın adresi ve zamanı: [Yalnız doğrulandıysa]
+- Sonuç ölçümü ve gözlem zamanı: [Ölçülmediyse açıkça yaz]
+- Sonraki adım: [ ]
