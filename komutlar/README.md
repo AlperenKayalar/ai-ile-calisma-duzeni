@@ -18,10 +18,11 @@ Yukarıdaki girdiden şu beş parçayı hazırla:
 4. Eksik bilgiler ve kullanamayacağımız iddialar, ayrı bir liste halinde.
 5. İşin durumu ve tek sonraki adım.
 
+Ana profili üçüncü şahısla, portföy tanıtımını ve paylaşımı birinci şahısla yaz.
 Metinler yalnız girdideki gerçeklere dayansın; kişisel çalışmalar kişisel
 çalışma olarak anlatılsın. Kişi bu metinlerle kendini tanıtacak, uydurulmuş
 müşteri, sonuç veya link ona zarar verir.
-Uzunluklar alıştırmanın kabul ölçütüdür, platform limiti değildir. Kelimeleri
+Uzunluklar alıştırma hedefidir, platform limiti değildir. Kelimeleri
 boşlukla ayrılmış birimler olarak say.
 Sonuç yerel taslak olarak kalır: iş sahibi hesap açılmamasına ve hiçbir yere
 gönderilmemesine karar verdi.

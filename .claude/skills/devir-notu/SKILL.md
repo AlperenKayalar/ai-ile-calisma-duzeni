@@ -22,4 +22,4 @@ Notta bulunması gerekenler (bu depoda `sablonlar/kapanis.md` alanları):
 - ilk sonraki adım ve sorumlusu
 - aynı işi yeniden oluşturmamak için mevcut kaydın yeri
 
-Notu iş kaydının devam bölümüne veya kullanıcının belirttiği dosyaya yaz. Bu public rehber deposundaysan `work/` veya `private/` altına yaz; kişisel iş kayıtları public pakete girmemeli. Notun sonuna yeni oturum için tek cümlelik başlangıç komutunu ekle.
+Kullanıcı bir dosya belirttiyse notu oraya yaz; belirtmediyse iş kaydının devam bölümünü güncelle. Aynı notu iki yerde tutma, zamanla birbirinden ayrılırlar. Bu public rehber deposundaysan `work/` veya `private/` altına yaz; kişisel iş kayıtları public pakete girmemeli. Notun sonuna yeni oturum için kısa bir başlangıç komutu ekle; kapanış şablonundaki hazır metin örnek alınabilir.

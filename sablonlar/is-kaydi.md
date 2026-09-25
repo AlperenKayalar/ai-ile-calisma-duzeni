@@ -11,14 +11,15 @@ Son güncelleme ve saat dilimi: [ ]
 - Hedef kitle / teslim alan: [ ]
 - Kapsama dahil: [ ]
 - Kapsam dışında: [ ]
+- Pilot: [Tek iş; bir ana çıktı ve ondan uyarlanan en fazla iki teslim]
 - Çıktılar ve konumu: [ ]
 - Yayın hedefi ve işlem yetkisi: [Yerel taslak / belirli dış hedef / henüz belirlenmedi]
 
 ## 2. Kaynaklar
 
-| Kod | Tür / konum | Kullanılacak bilgi | Tarih | Erişim durumu | Sınır |
-|---|---|---|---|---|---|
-| K1 | [ ] | [ ] | [ ] | [Okundu / yalnız listede / erişilemedi] | [ ] |
+| Kod | Tür / konum | Kullanılacak bilgi | Kaynak tarihi | Son kontrol | Erişim durumu | Sınır |
+|---|---|---|---|---|---|---|
+| K1 | [ ] | [ ] | [Biliniyorsa] | [ ] | [Okundu / yalnız listede / erişilemedi] | [ ] |
 
 ## 3. Kararlar
 

@@ -14,9 +14,9 @@ Amaç, talebi başka bir kişinin sözlü açıklamaya ihtiyaç duymadan izleyeb
 Kayıtta bulunması gerekenler:
 
 - **Brif:** tek cümlelik hedef, hedef kitle, kapsama dahil ve hariç olanlar, çıktılar ve konumları, yayın hedefi ve işlem yetkisi.
-- **Kaynaklar:** her kaynağın konumu, tarihi ve erişim durumu (okundu / yalnız listede / erişilemedi). Erişemediğin kaynağı var veya yok diye değil, "bilinmiyor" diye yaz.
+- **Kaynaklar:** her kaynağın konumu, biliniyorsa kendi tarihi, son kontrol tarihi ve erişim durumu (okundu / yalnız listede / erişilemedi). Erişemediğin kaynağı var veya yok diye değil, "bilinmiyor" diye yaz.
 - **Kararlar:** iş sahibinin verdiği kararlar ile AI önerileri ayrı sütunlarda. Ücret, görünürlük, yayın hedefi, deneyim tarihi gibi kaynakta bulunmayan kararlar "karar bekliyor" listesine girer; yanına bu karara bağlı olmadan sürdürülebilecek işi yaz.
-- **Pilot ve kabul:** bir kaynak işi, en fazla iki çıktı, en fazla beş gözlenebilir kabul ölçütü. Yayın, gönderim veya ödeme gibi geri alınamayacak bir işlem pilotun koşulu olmasın.
+- **Pilot ve kabul:** tek iş; bir ana çıktı ve ondan uyarlanan en fazla iki teslim; en fazla beş gözlenebilir kabul ölçütü. Uzunluk gibi alıştırma hedefleri kabul ölçütü sayılmaz, brifte ayrı yazılır. Yayın, gönderim veya ödeme gibi geri alınamayacak bir işlem pilotun koşulu olmasın.
 
 Kaydı kullanıcının belirttiği yere yaz. Konum belirtilmediyse ve bu public rehber deposunun içindeysen `work/` veya `private/` altına yaz (ikisi de .gitignore'da), çünkü kişisel iş kayıtları public pakete girmemeli.
 
