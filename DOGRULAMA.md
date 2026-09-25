@@ -27,3 +27,11 @@ Başka bir gerçek kişinin kendi hesaplarıyla bütün süreci uygulaması, ger
 Yedi aracın mevcut sayfa içeriği salt okunur incelendi. Bu erişim gözlemi üretim veya entegrasyon testi değildir. Yeni yardımcılar bölümü ve görev kartı bağımsız AI okuyucu tarafından ayrıca incelendi; gözlem, önerilen görev ve gerçek çıktı ayrımı kontrol edildi. Devir komutu tarayıcı dışındaki erişim yollarını da kapsayacak biçimde düzeltildi.
 
 Ekleme sırasında 36 dosyanın 32'si Markdown'dı; 98 depo içi bağlantı, kod bloğu dengesi ve seçili özel veri örüntüleri kontrol edildi. Kritik bulgu çıkmadı. Hesap/proje adresleri ve tarayıcı erişim belirteçleri kamu metnine taşınmadı. İlk okuyucu provası bu belge eklemesi için yeniden koşturulmadı; dış araçlara örnek üretim gönderilmedi.
+
+## 25 Eylül 2026 bakımı
+
+Dosya kontrolleri artık [araclar/kontrol.py](araclar/kontrol.py) ile tekrar çalıştırılabiliyor ve GitHub'da her değişiklikte otomatik koşuyor. Betik depo içi Markdown bağlantılarını, kod bloğu dengesini, bilinen özel veri örüntülerini (yerel kullanıcı yolu, e-posta, anahtar biçimleri, özel sohbet bağlantıları) ve `SHA256SUMS.txt` güncelliğini denetler. Kırık bağlantı ve kapanmamış kod bloğu içeren geçici bir test dosyasıyla hatayı yakaladığı görüldü. Bakım sonunda bütün dosyalarda hata çıkmadı. Önceki checksum listesinde `README.en.md` yoktu; liste yeniden üretildi.
+
+Dış bağlantılar 25 Eylül'de yeniden açıldı. Resmî OpenAI ve Ollama belgeleri, Higgsfield, WASK ve Instantly yanıt verdi. Runway'in eski adresi kalıcı yönlendirmeyle yeni alan adına gidiyordu; bağlantı güncellendi. Lovable, Tripo ve Higgsfield CLI deposu otomatik istemciye erişim izni vermedi; bu, sayfaların kaldırıldığı anlamına gelmez ve bağlantılar değiştirilmedi.
+
+Claude bölümündeki ürün bilgileri [kaynak notundaki](KAYNAKLAR.md) resmî sayfalardan okundu. Komutların yeni biçimi ve taslak skill'ler için ayrı okuyucu provasının sonucu aşağıya eklenecek.

@@ -1,8 +1,10 @@
 # AI ile Çalışma Düzeni
 
+[English](README.en.md)
+
 **Gerçek bir işi AI ile tarif et, uygula, doğrula ve devret.**
 
-Alperen Kayalar'ın özellikle **8 Eylül 2026'daki konuşma ve uygulamalarından**, önceki üç dört günün bağlamıyla çıkarılan Türkçe süreç rehberi. Amaç, birlikte yürütülen işi başka bir kişinin kendi hesapları ve verileriyle profesyonel biçimde tekrar edebilmesi. İlk sürüm: **0.1 · 9 Eylül 2026**; deneyim kesiti 8 Eylül gün sonudur.
+Alperen Kayalar'ın özellikle **8 Eylül 2026'daki konuşma ve uygulamalarından**, önceki üç dört günün bağlamıyla çıkarılan Türkçe süreç rehberi. Amaç, birlikte yürütülen işi başka bir kişinin kendi hesapları ve verileriyle profesyonel biçimde tekrar edebilmesi. İlk sürüm: **0.1 · 9 Eylül 2026**; deneyim kesiti 8 Eylül gün sonudur. Güncel sürüm: **0.1.1 · 25 Eylül 2026** ([değişiklikler](CHANGELOG.md)).
 
 > Bu düzen işimi ve hayatımı ciddi biçimde kolaylaştırdı. Burada nasıl kurduğumuzu, nerede hata yaptığımızı ve hangi parçaları kendi işine taşıyabileceğini gösteriyoruz.
 
@@ -54,11 +56,12 @@ Bu, deneyimin sadeleştirilmiş görünümüdür. Tam yöntemde kapsam, insan ka
 | Chrome'da açık yardımcıları belirli işe bağlamak | [Yedi araçla görev paylaşımı](rehber/08-chrome-yardimcilari.md) · [Görev kartı](sablonlar/yardimci-gorev-karti.md) |
 | Aynı yöntemi farklı işlerde kullanmak | [İş akışları](rehber/05-is-akislari.md) |
 | Codex ve bağlantıları gerektiğinde eklemek | [Araç ve bağlantı kurulumu](rehber/06-arac-ve-baglanti.md) |
-| Kopyalayıp doldurmak | [Şablonlar](sablonlar/README.md) · [Komutlar](komutlar/README.md) |
+| Protokolü Claude Code ve güncel Claude modelleriyle uygulamak | [Claude ile uygulama](rehber/09-claude-ile-uygulama.md) · [Taslak skill'ler](.claude/skills/) |
+| Kopyalayıp doldurmak | [Şablonlar](sablonlar/README.md) · [Tek dosyalık iş kaydı](sablonlar/is-kaydi.md) · [Komutlar](komutlar/README.md) |
 | Canlı yayında uygulamak | [60 dakikalık yayın](yayin/01-ilk-yayin.md) · [Seri ve kısa içerikler](yayin/02-seri-ve-kisa-icerikler.md) |
 | Kaynak ve sınırları kontrol etmek | [Kaynaklar](KAYNAKLAR.md) |
-| Paketin nasıl kontrol edildiğini görmek | [Doğrulama](DOGRULAMA.md) |
-| GitHub yayınına hazırlamak | [Yayınlama notu](YAYINLAMA.md) |
+| Paketin nasıl kontrol edildiğini görmek | [Doğrulama](DOGRULAMA.md) · [Kontrol betiği](araclar/kontrol.py) |
+| Paketi tanıtmak, kendi tekrarını raporlamak | [Yayınlama notu](YAYINLAMA.md) · [Tekrar raporu aç](https://github.com/AlperenKayalar/ai-ile-calisma-duzeni/issues/new?template=tekrar-raporu.md) |
 
 ## Gerçek deneyim ile demo arasındaki fark
 

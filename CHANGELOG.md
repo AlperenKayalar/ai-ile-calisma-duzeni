@@ -1,5 +1,22 @@
 # Sürüm geçmişi
 
+## 0.1.1 · 25 Eylül 2026
+
+Bakım ve Claude Code eki. 8 Eylül deneyim kesiti ve 9 Eylül gözlemi değiştirilmedi.
+
+- Yeni bölüm: [Protokolü Claude Code ile uygulamak](rehber/09-claude-ile-uygulama.md). Protokol parçalarının CLAUDE.md, skill, subagent, MCP, hooks ve zamanlanmış görev karşılıkları; Claude Opus 5.5 ve güncel modeller için komut yazımı. Kaynaklar 25 Eylül'de okunan resmî sayfalar.
+- Üç taslak Claude Code skill'i: `/is-brifi`, `/kabul-kontrolu`, `/devir-notu` (`.claude/skills/`).
+- Depoyu Claude ile düzenlerken korunacak kurallar için [CLAUDE.md](CLAUDE.md).
+- [Komutlar](komutlar/README.md) güncel istem rehberine göre yeniden biçimlendirildi: girdi etiketlerle ayrıldı ve başa alındı, önemli kısıtların gerekçesi eklendi. İçerik ve sınırlar aynı.
+- Eksik şablon eklendi: tek dosyalık [iş kaydı](sablonlar/is-kaydi.md) (protokoldeki `PILOT-01` düzeni).
+- Otomatik dosya kontrolü: [araclar/kontrol.py](araclar/kontrol.py) ve GitHub Actions iş akışı. `SHA256SUMS.txt` yeniden üretildi; önceki listede `README.en.md` yoktu.
+- GitHub için tekrar raporu ve düzeltme issue şablonları, pull request şablonu.
+- Düzeltmeler: yayın akışındaki altı komut, komutlar dosyasındakilerle karışmaması için “yayın komutu” diye yeniden adlandırıldı; bölüm 06'daki olmayan “bağlantı kartı” yerine platform kartına bağlantı verildi; yayın dosyalarındaki GitHub yer tutucusu depo adresiyle dolduruldu; Runway bağlantısı yeni alan adına taşındı; README'ye dil bağlantısı eklendi; `.gitignore`'a Claude Code kişisel dosyaları eklendi.
+
+## 0.1-en · 14 Eylül 2026
+
+- Çalışan İngilizce dizin: [README.en.md](README.en.md). İçerik bağlantıları Türkçe dosyalara gider.
+
 ## 0.1 ek güncellemesi · 9 Eylül 2026
 
 - Chrome'da açık yedi yardımcı aracın arayüz gözlemi, önerilen görevleri ve deneme sınırları.

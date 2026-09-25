@@ -114,7 +114,7 @@ Her kesit yaklaşık 30–60 saniyede tek bir örneği tamamlasın: önce sorun 
 
 Gerçek deneyimden gelen sayı veya sonuç, anlamıyla birlikte kesitte kalsın. Örneğin “13 test geçti” cümlesi yalnız bırakılmamalı; yerel kontroller olduğu anlaşılmalı. Hazır kurmaca örnekte “kurmaca prova”, bilerek eklenen hatada “kasıtlı hatalı örnek” etiketi korunmalı. Kısa içerik, planlanan sonucu gerçekleşmiş gibi göstermemeli.
 
-Her klibin açıklamasına ilgili protokol, örnek veya şablon bağlantısı eklenir. Depo henüz yayımlanmadıysa bağlantı alanı duyurudan önce tamamlanır.
+Her klibin açıklamasına ilgili protokol, örnek veya şablon bağlantısı eklenir. Depo adresi: [github.com/AlperenKayalar/ai-ile-calisma-duzeni](https://github.com/AlperenKayalar/ai-ile-calisma-duzeni).
 
 ## İlk yayın duyurusu — Gönderilmemiş taslak
 
@@ -140,7 +140,7 @@ Teknik bilgi veya ek araç aboneliği gerekmiyor. Kendi işinde sürekli yarım 
 
 Tarih ve saat: [Tarih, saat ve saat dilimi]
 Canlı yayın: [Yayın bağlantısı]
-Protokol, örnekler ve şablonlar: [GitHub bağlantısı]
+Protokol, örnekler ve şablonlar: https://github.com/AlperenKayalar/ai-ile-calisma-duzeni
 ```
 
-Tarih, erişilebilir yayın adresi ve GitHub bağlantısı kesinleştikten sonra köşeli parantezli alanlar doldurulur. Bu dosya hiçbir platforma gönderilmiş bir duyuru değildir.
+Tarih ve erişilebilir yayın adresi kesinleştikten sonra köşeli parantezli alanlar doldurulur. Bu dosya hiçbir platforma gönderilmiş bir duyuru değildir.

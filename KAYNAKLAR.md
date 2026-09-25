@@ -47,6 +47,8 @@ Kullanıcının “işimi ve hayatımı kolaylaştırdı” deneyimi kendi beyan
 
 İlk sürümde diğer ürünlerin adları geçmiş çalışma kayıtlarındaki rolleriyle kullanıldı; yeni bir özellik veya fiyat karşılaştırması yapılmadı.
 
+25 Eylül 2026'daki bakımda bu dört adres yeniden açıldı ve yanıt verdi; içerikleri 8 Eylül okumasıyla yeniden karşılaştırılmadı.
+
 ## 9 Eylül ek gözlemi — Chrome yardımcıları
 
 [Yeni bölüm](rehber/08-chrome-yardimcilari.md), kullanıcının açık Chrome sekmelerindeki yedi aracın sayfa içeriğine dayanır. Ollama kullanım sayfası; Higgsfield ana sayfası; Runway çalışma alanı; Tripo ana sayfası; Lovable mevcut proje önizlemesi; WASK ve Instantly başlangıç formları okundu. Bu kaynak, belirli tarih ve hesaptaki arayüz gözlemidir; özel hesap sayfaları dış okuyucunun erişebileceği kanıt değildir. Public bağlantılar yalnız ürünlerin genel adreslerine gider.
@@ -54,3 +56,22 @@ Kullanıcının “işimi ve hayatımı kolaylaştırdı” deneyimi kendi beyan
 Bu ek, ilk bölümün 8 Eylül kaynak kesitini değiştirmez. Önerilen görevler yeni yazılmış yöntemlerdir. Üretim, dışa aktarım, entegrasyon, gönderim veya performans sınaması yapılmadı. Ham tarayıcı dökümü ve özel bağlantılar pakete alınmadı.
 
 Higgsfield'ın resmî bağlantı sayfası ve CLI deposu ile Ollama'nın resmî Cloud belgesi ayrıca okundu; ilgili iddiaların yanında [yeni bölümde](rehber/08-chrome-yardimcilari.md) bağlantıları var. Belgelenmiş destek ile bu makinede çalıştırılmış bağlantı ayrı tutuldu.
+
+## 25 Eylül 2026 eki — Claude kaynakları
+
+[Claude ile uygulama bölümü](rehber/09-claude-ile-uygulama.md) ve [komutların](komutlar/README.md) yeni biçimi aşağıdaki resmî sayfalara dayanır. Sayfalar 25 Eylül 2026'da açılarak okundu. Belgelenmiş özellik ile bu pakette denenmiş kullanım ayrı tutuldu; denenenler [doğrulama notunda](DOGRULAMA.md).
+
+| Kaynak | Desteklediği bilgi |
+|---|---|
+| [Claude Code: Memory (CLAUDE.md)](https://code.claude.com/docs/en/memory) | CLAUDE.md'nin her oturum başında okunması, konumları, `CLAUDE.local.md`, 200 satır önerisi |
+| [Claude Code: Skills](https://code.claude.com/docs/en/skills) | `.claude/skills/<ad>/SKILL.md`, `/ad` ile çağırma, frontmatter alanları, `context: fork`, claude.ai yüklemesinde izin verilen alanlar |
+| [Claude Code: Subagents](https://code.claude.com/docs/en/sub-agents) | Ayrı bağlam penceresi; ana konuşma geçmişini görmeme |
+| [Claude Code: MCP](https://code.claude.com/docs/en/mcp) | Dış araç ve verilere bağlantı standardı |
+| [Claude Code: Hooks](https://code.claude.com/docs/en/hooks-guide) | Belirli anlarda her zaman çalışan kullanıcı komutları |
+| [Claude Code: Scheduled tasks](https://code.claude.com/docs/en/scheduled-tasks) · [Desktop](https://code.claude.com/docs/en/desktop-scheduled-tasks) · [Routines](https://code.claude.com/docs/en/routines) | Masaüstü, `/loop` ve bulut görevlerinin çalışma koşulları; Routines'in araştırma önizlemesi olması |
+| [Claude Code: Model configuration](https://code.claude.com/docs/en/model-config) | Effort düzeyinin `/effort` ile değiştirilmesi |
+| [Claude: Prompting best practices](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/claude-prompting-best-practices) | Açık talimat, gerekçe verme, XML etiketleri, uzun girdiyi başa koyma, vurgulu dilin azaltılması, kapsamı dar tutma, subagent kullanımı, ilerleme notu ve git ile durum takibi |
+| [Claude: Prompting Claude Opus 5.5](https://platform.claude.com/docs/en/build-with-claude/prompt-engineering/prompting-claude-opus-5-5) | Her zaman açık düşünme, varsayılan `medium` effort, “dikkatle düşün” satırlarının kaldırılması, akıl yürütmeyi yanıtta yazdırma isteklerinin reddedilebilmesi |
+| [Claude: Models overview](https://platform.claude.com/docs/en/models/overview) | Claude Opus 5.5'in model kimliği (`claude-opus-5-5`) ve genel konumu |
+
+Bu ekte ayrıca [Runway](https://runway.com/) bağlantısı güncellendi: eski adres 25 Eylül'de kalıcı yönlendirmeyle yeni alan adına gidiyordu. 9 Eylül gözleminin içeriği değiştirilmedi.

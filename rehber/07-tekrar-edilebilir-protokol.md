@@ -10,7 +10,7 @@ Bu belge, [gerçek deneyimden](03-gercek-deneyim.md) çıkarılmış **önerilen
 
 İlk uygulamada tek bir iş ve iki hedef çıktı yeterli. “Tek iş”, birkaç kişisel çalışmayı kullanan bir tanıtım işi de olabilir; tek kaynak dosyayla sınırlı değildir. 31 hesabı veya bütün geçmişi yeniden kurmak önkoşul değil. Mevcut bir çalışma alanıyla başlayabilir, AI dosyaya erişemiyorsa gerekli içeriği elle aktarabilirsin.
 
-İlk pilotta brif, kaynak, çıktı, kabul ve devam bölümlerini tek dosyada tutabilirsin. İşe kendin basit bir kimlik ver; örneğin `PILOT-01`. Dosyaları ancak farklı kişiler yazacaksa veya içerik büyürse ayır. Yerel teslimin geri okuması, kaydedilen dosyanın yeniden açılmasıdır; insan kabulü ve dış platform kontrolü ayrı kalır.
+İlk pilotta brif, kaynak, çıktı, kabul ve devam bölümlerini tek dosyada tutabilirsin; [iş kaydı şablonu](../sablonlar/is-kaydi.md) bu düzen için hazırlandı. İşe kendin basit bir kimlik ver; örneğin `PILOT-01`. Dosyaları ancak farklı kişiler yazacaksa veya içerik büyürse ayır. Yerel teslimin geri okuması, kaydedilen dosyanın yeniden açılmasıdır; insan kabulü ve dış platform kontrolü ayrı kalır.
 
 ## Roller
 

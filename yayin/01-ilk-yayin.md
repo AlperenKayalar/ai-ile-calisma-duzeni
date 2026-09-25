@@ -42,12 +42,12 @@ Prova dosyasının bir çalışma kopyasını aç. AI'ya [girdi.md](../ornekler/
 | --- | --- | --- |
 | 00:00–05:00 | Açılış; deneyim, önerilen yöntem ve kurmaca prova ayrımını açıkla. | Yayının amacı ve iddiaların sınırı |
 | 05:00–15:00 | Aşağıdaki gerçek süreci adım adım deneyim dosyasından göster. | Son birkaç günlük işten çıkarılmış beş ders |
-| 15:00–20:00 | Provanın girdisini oku; Komut 1 ile kapsamı ve brifi çıkar. | Neyi bitireceği belli bir iş |
-| 20:00–26:00 | Komut 2 ile kaynakları ve insan kararlarını ayır; örnekte gerekli kararları açıkça ver. | Kullanılabilir kaynaklar, eksikler ve karar kaydı |
-| 26:00–32:00 | Komut 3 ile bağımlılıkları ve görev dağıtımını yaz. | Kimin neyi, hangi sırayla yapacağı |
-| 32:00–43:00 | Komut 4 ile provanın ana profil ve iki metin görevini sırayla uygula; çıktıları dosyaya aktar. | Açılabilen, incelenebilir üç metin |
-| 43:00–53:00 | Komut 5 ile çıktıyı yeniden açıp kaynak ve kabul koşullarıyla karşılaştır; bir hatayı düzelt; örnekteki teslim dosyasını aç. | Kabul ve teslim sonucu veya açık kalma nedeni |
-| 53:00–58:00 | Komut 6 ile devir kaydı yaz; önceki sohbeti okumadan ilk sonraki adımı bulmayı dene. | Sonraki oturumun başlayabileceği kayıt |
+| 15:00–20:00 | Provanın girdisini oku; Yayın komutu 1 ile kapsamı ve brifi çıkar. | Neyi bitireceği belli bir iş |
+| 20:00–26:00 | Yayın komutu 2 ile kaynakları ve insan kararlarını ayır; örnekte gerekli kararları açıkça ver. | Kullanılabilir kaynaklar, eksikler ve karar kaydı |
+| 26:00–32:00 | Yayın komutu 3 ile bağımlılıkları ve görev dağıtımını yaz. | Kimin neyi, hangi sırayla yapacağı |
+| 32:00–43:00 | Yayın komutu 4 ile provanın ana profil ve iki metin görevini sırayla uygula; çıktıları dosyaya aktar. | Açılabilen, incelenebilir üç metin |
+| 43:00–53:00 | Yayın komutu 5 ile çıktıyı yeniden açıp kaynak ve kabul koşullarıyla karşılaştır; bir hatayı düzelt; örnekteki teslim dosyasını aç. | Kabul ve teslim sonucu veya açık kalma nedeni |
+| 53:00–58:00 | Yayın komutu 6 ile devir kaydı yaz; önceki sohbeti okumadan ilk sonraki adımı bulmayı dene. | Sonraki oturumun başlayabileceği kayıt |
 | 58:00–60:00 | İzleyiciye kendi tekrarını nasıl başlatacağını göster; kaynak bağlantısını hatırlat. | Kendi işi için tek bir brif yazma adımı |
 
 Zaman daralırsa uygulamanın ikinci çıktısını hazır provadan göster. Kapsamı, insan kararını, geri okumayı ve devri koru. Canlı yayında tüm hesapları veya bütün düzeni yeniden kurmayı vaat etme; bir işin tam döngüsünü göster.
@@ -68,9 +68,9 @@ Bu bölüm [gerçek deneyim kaydının](../rehber/03-gercek-deneyim.md) anlatım
 
 ## Prova komutları
 
-Köşeli parantezli alanlara belirtilen metni yapıştır. Senaryo için [kurmaca prova dosyasını](../ornekler/prova/akisin-tamami.md) esas al; Deniz / Örnek Atölye’ye kaynakta bulunmayan müşteri, gelir veya başarı ekleme. Her komut önceki aşamanın insan tarafından kontrol edilmiş kaydını kullanır.
+Bu altı komut yayın akışına özeldir; [komutlar dosyasındaki](../komutlar/README.md) numaralı komutlarla karıştırmamak için “yayın komutu” diye anılır. Köşeli parantezli alanlara belirtilen metni yapıştır. Senaryo için [kurmaca prova dosyasını](../ornekler/prova/akisin-tamami.md) esas al; Deniz / Örnek Atölye’ye kaynakta bulunmayan müşteri, gelir veya başarı ekleme. Her komut önceki aşamanın insan tarafından kontrol edilmiş kaydını kullanır.
 
-### Komut 1 — Kapsam ve brif
+### Yayın komutu 1 — Kapsam ve brif
 
 ```text
 Aşağıdaki kurmaca senaryoda yapılacak işi netleştir.
@@ -88,7 +88,7 @@ SENARYO GİRDİSİ:
 
 **Beklenen çıktı:** Yapılacak iş ve kapsam dışı konular anlaşılır. Bitiş koşulu “AI cevap verdi” şeklinde kalmaz; açılıp kontrol edilebilecek bir sonuç ister.
 
-### Komut 2 — Kaynak envanteri ve insan kararları
+### Yayın komutu 2 — Kaynak envanteri ve insan kararları
 
 ```text
 Aşağıdaki brif ve senaryo için iki kısa tablo çıkar.
@@ -108,7 +108,7 @@ KONTROL EDİLMİŞ BRİF VE SENARYO:
 
 **Beklenen çıktı:** Kaynaklar ve eksikler görünür. Sunucu örnekteki kararları yüksek sesle verir ve kaydeder: “Bu provada şu çıktıyı hazırlıyoruz; yayın aşaması kapsamda değil.” Gerçek hayatta karar zaten verilmişse yeniden onay istemek yerine mevcut kararın kaydı kullanılır.
 
-### Komut 3 — Görev dağıtımı
+### Yayın komutu 3 — Görev dağıtımı
 
 ```text
 Aşağıdaki kontrol edilmiş brif, kaynak envanteri ve insan kararlarından görev planı çıkar.
@@ -129,7 +129,7 @@ KAYITLAR:
 
 **Beklenen çıktı:** Bir sonraki görev seçilebilir; çıktının hangi kaynaktan geleceği ve kimin kontrol edeceği belli olur.
 
-### Komut 4 — Uygulama
+### Yayın komutu 4 — Uygulama
 
 ```text
 Aşağıdaki görev planında girdileri hazır olan ilk uygulama görevini yap.
@@ -148,7 +148,7 @@ GÖREV VE GİRDİLER:
 
 **Beklenen çıktı:** Planın tanımladığı somut taslak oluşur. Tam provada önce ana profil, ardından 60–90 kelimelik portföy tanıtımı ve en fazla 45 kelimelik kısa paylaşım hazırlanır. Komut gerektiğinde sıradaki görev için yeniden kullanılır. Bu uzunluklar demo tercihidir. Sunucu çıktıları çalışma kaydına alır ve tekrar açar; ardından kabul ve devir aşamalarına geçer.
 
-### Komut 5 — Geri okuma ve kabul
+### Yayın komutu 5 — Geri okuma ve kabul
 
 ```text
 Aşağıdaki kaydedilmiş çıktıyı brifin kabul koşulları ve kaynaklarla karşılaştır.
@@ -169,7 +169,7 @@ KABUL KOŞULLARI, KAYNAKLAR VE YENİDEN AÇILMIŞ ÇIKTI:
 
 Hata oluşmadıysa **kasıtlı hatalı örnek** etiketiyle bir devir satırı göster: “Tanıtım dosyası hazırlandı; bütün hesaplar güncellendi ve iş tamamlandı.” Kaynak yalnızca yerel taslağı destekliyorsa düzelt: “Tanıtım taslağı hazırlandı ve dosyada kontrol edildi. Hesaplara uygulama yapılmadı; kapsamda bulunan sonraki işlem açık.”
 
-### Komut 6 — Devir
+### Yayın komutu 6 — Devir
 
 ```text
 Aşağıdaki gerçek prova sonuçlarından kısa bir devir kaydı oluştur:
@@ -199,4 +199,4 @@ O anki aşamanın bölümünü göster. Kapsam aşamasındaysan bir dışarıda 
 
 > “Kendi işinizde sık sık yarım kalan tek bir görevi seçin. Önce amacını, elinizdeki kaynakları ve bittiğinde neyi görmeniz gerektiğini yazın. Sonra bu yedi aşamayı izleyin. Hangi aşamada durduğunuzu, hangi kararı sizin vermeniz gerektiğini ve neyin eksik kaldığını kaydedin. Bu yöntemin işe yarayan ve değişmesi gereken taraflarını gerçek tekrarlarla görebileceğiz.”
 
-Yayın açıklamasına `[GitHub bağlantısı]` eklenir. İzleyicinin başlangıç dosyası [tekrar edilebilir protokol](../rehber/07-tekrar-edilebilir-protokol.md), karşılaştırma dosyası [kurmaca tam prova](../ornekler/prova/akisin-tamami.md) olur.
+Yayın açıklamasına depo bağlantısı eklenir: [github.com/AlperenKayalar/ai-ile-calisma-duzeni](https://github.com/AlperenKayalar/ai-ile-calisma-duzeni). İzleyicinin başlangıç dosyası [tekrar edilebilir protokol](../rehber/07-tekrar-edilebilir-protokol.md), karşılaştırma dosyası [kurmaca tam prova](../ornekler/prova/akisin-tamami.md) olur.

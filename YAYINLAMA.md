@@ -2,7 +2,7 @@
 
 Bu deponun ana adresi: [AlperenKayalar/ai-ile-calisma-duzeni](https://github.com/AlperenKayalar/ai-ile-calisma-duzeni).
 
-Sürüm: **0.1**. Lisans: **CC BY 4.0**; kapsam README ve [lisans metninde](LICENSE) açıklanır.
+Sürüm: **0.1.1**. Lisans: **CC BY 4.0**; kapsam README ve [lisans metninde](LICENSE) açıklanır.
 
 ## İçeriği nasıl kullanırsın?
 
@@ -18,4 +18,4 @@ Bu metin ve yayın dosyaları öneridir; bir sosyal gönderinin veya canlı yay�
 
 ## Kendi tekrarını raporla
 
-İlk uygulamanda belirsiz talimatları, üretilen sonucu ve kontrolünü kaydet. Süre ve maliyet ölçülmediyse belirt. Yöntemin başka kişilerde uçtan uca çalıştığı, karşılaştırmalı zaman veya gelir kazandırdığı bu sürümde henüz doğrulanmadı. [Katkı biçimi](CONTRIBUTING.md) aynı ayrımı korumana yardımcı olur.
+İlk uygulamanda belirsiz talimatları, üretilen sonucu ve kontrolünü kaydet. Süre ve maliyet ölçülmediyse belirt. Yöntemin başka kişilerde uçtan uca çalıştığı, karşılaştırmalı zaman veya gelir kazandırdığı bu sürümde henüz doğrulanmadı. [Katkı biçimi](CONTRIBUTING.md) aynı ayrımı korumana yardımcı olur; sonucu [tekrar raporu](https://github.com/AlperenKayalar/ai-ile-calisma-duzeni/issues/new?template=tekrar-raporu.md) olarak açabilirsin.
