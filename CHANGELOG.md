@@ -9,6 +9,7 @@ Bakım ve Claude Code eki. 8 Eylül deneyim kesiti ve 9 Eylül gözlemi değişt
 - Depoyu Claude ile düzenlerken korunacak kurallar için [CLAUDE.md](CLAUDE.md).
 - [Komutlar](komutlar/README.md) güncel istem rehberine göre yeniden biçimlendirildi: girdi etiketlerle ayrıldı ve başa alındı, önemli kısıtların gerekçesi eklendi. İçerik ve sınırlar aynı.
 - Eksik şablon eklendi: tek dosyalık [iş kaydı](sablonlar/is-kaydi.md) (protokoldeki `PILOT-01` düzeni).
+- Yeni Komut 1 ve taslak skill'ler kurmaca demo üzerinde iki ayrı AI okuyucuyla denendi; çıkan belirsizlikler skill'lerde, Komut 1'de, iş kaydı ve kabul kaydı şablonlarında düzeltildi ([doğrulama notu](DOGRULAMA.md)).
 - Otomatik dosya kontrolü: [araclar/kontrol.py](araclar/kontrol.py) ve GitHub Actions iş akışı. `SHA256SUMS.txt` yeniden üretildi; önceki listede `README.en.md` yoktu.
 - GitHub için tekrar raporu ve düzeltme issue şablonları, pull request şablonu.
 - Düzeltmeler: yayın akışındaki altı komut, komutlar dosyasındakilerle karışmaması için “yayın komutu” diye yeniden adlandırıldı; bölüm 06'daki olmayan “bağlantı kartı” yerine platform kartına bağlantı verildi; yayın dosyalarındaki GitHub yer tutucusu depo adresiyle dolduruldu; Runway bağlantısı yeni alan adına taşındı; README'ye dil bağlantısı eklendi; `.gitignore`'a Claude Code kişisel dosyaları eklendi.
