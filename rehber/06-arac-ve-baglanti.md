@@ -2,6 +2,8 @@
 
 İlk demo, kullanabildiğin bir AI sohbetinde metinleri yapıştırarak tamamlanabilir. Bir ücretli plan listesi veya tüm araçları kurma zorunluluğu yoktur. Mevcut hesabının sınırları yine geçerlidir.
 
+Bu bölüm 8 Eylül deneyimindeki Codex kurulumunu anlatır. Aynı protokolün Claude Code ve güncel Claude modelleriyle kurulumu [ayrı bölümde](09-claude-ile-uygulama.md).
+
 ## Codex ile yerel dosya çalışması
 
 Bu deneyimde Codex masaüstü uygulaması kullanıldı. Güncel resmî başlangıç sayfası masaüstü ve web seçeneklerini anlatıyor; geliştirici için Codex CLI ve editör eklentisine de yönlendiriyor. Kurulumda ürün adını ve hesabında görünen seçenekleri bu kaynaktan kontrol et. [Resmî başlangıç](https://learn.chatgpt.com/docs/quickstart).
@@ -12,13 +14,13 @@ Başlamak için demo klasörünü bir çalışma alanında aç, AI'ya okuyacağ�
 
 Skill, tekrar eden bir işin talimatlarını ve gerektiğinde kaynaklarını bir araya getirir. Codex ve ChatGPT'nin resmî belgelerinde yeniden kullanılabilir iş akışlarının yazım biçimi olarak tanımlanır. Paketle dağıtım için plugin kullanılabilir. [Resmî skill belgesi](https://learn.chatgpt.com/docs/build-skills).
 
-Bu paketteki komutları önce elle uygula. Aynı girdiden aynı tür çıktıyı iki kez alabildiğinde, “ne zaman kullanılacak, ne okuyacak, ne üretecek, nasıl kontrol edilecek?” sözleşmesini yaz. Bu sürüm otomatik kurulan bir skill veya plugin içermez.
+Bu paketteki komutları önce elle uygula. Aynı girdiden aynı tür çıktıyı iki kez alabildiğinde, “ne zaman kullanılacak, ne okuyacak, ne üretecek, nasıl kontrol edilecek?” sözleşmesini yaz. 25 Eylül 2026'dan itibaren depoda protokolün üç adımı için taslak Claude Code skill'leri var; durumları ve kurulumları [Claude bölümünde](09-claude-ile-uygulama.md). Otomatik kurulan bir plugin içermez.
 
 ## Bağlantı nasıl eklenir?
 
 MCP, modele başka araçların ve kaynakların erişimini sağlar. Yerel istemci bağlantılarıyla webdeki plugin araçlarının kurulum ve erişim biçimleri farklı olabilir. [Resmî MCP belgesi](https://learn.chatgpt.com/docs/extend/mcp?surface=cli).
 
-Önce tek bir işi tanımla: örneğin seçtiğin bir belgeden bilgi okumak. Kullandığın uygulamanın bağlantı arayüzünden ilgili hizmeti bağla; istenen erişimin bu işe uygun olduğunu kontrol et. AI'dan yalnız seçtiğin örnek kaydı okumasını iste. Gerçek sonuç dönünce bağlantı kartına tarih ve kapsam yaz. Bir okuma testi, yazma veya otomasyonun da çalıştığını göstermez.
+Önce tek bir işi tanımla: örneğin seçtiğin bir belgeden bilgi okumak. Kullandığın uygulamanın bağlantı arayüzünden ilgili hizmeti bağla; istenen erişimin bu işe uygun olduğunu kontrol et. AI'dan yalnız seçtiğin örnek kaydı okumasını iste. Gerçek sonuç dönünce [platform kartındaki](../sablonlar/platform-karti.md) AI erişim yöntemi ve denenen işlem alanlarına tarih ve kapsamla yaz. Bir okuma testi, yazma veya otomasyonun da çalıştığını göstermez.
 
 Bağlantı yoksa aynı alıştırma için paylaşılabilir metni dışa aktarabilir ya da elle yapıştırabilirsin. Anahtarları, oturum verilerini veya kişisel yapılandırma dosyalarını eğitim deposuna koyma.
 

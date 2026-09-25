@@ -2,7 +2,7 @@
 
 **Describe a real job to an AI, execute it, verify the output, and hand it off.**
 
-A Turkish-language process guide distilled from Alperen Kayalar's practice on **September 8, 2026** and the three or four preceding days. The aim: another person can reproduce the same work professionally with their own accounts and data. First version: **v0.1 · September 9, 2026**; experience slice ends September 8.
+A Turkish-language process guide distilled from Alperen Kayalar's practice on **September 8, 2026** and the three or four preceding days. The aim: another person can reproduce the same work professionally with their own accounts and data. First version: **v0.1 · September 9, 2026**; experience slice ends September 8. Current version: **v0.1.1 · September 25, 2026** ([changelog](CHANGELOG.md), Turkish).
 
 > This system meaningfully simplified my work and my life. Here we show how we set it up, where we made mistakes, and which parts you can carry into your own work.
 
@@ -64,11 +64,12 @@ This is the simplified view. The full method also records scope, human decisions
 | Bind open Chrome helpers to specific work | [Task split across seven tools](rehber/08-chrome-yardimcilari.md) · [Task card](sablonlar/yardimci-gorev-karti.md) |
 | Use the same method across different jobs | [Workflows](rehber/05-is-akislari.md) |
 | Add Codex and connections when needed | [Tool and connection setup](rehber/06-arac-ve-baglanti.md) |
-| Copy and fill in | [Templates](sablonlar/README.md) · [Commands](komutlar/README.md) |
+| Apply the protocol with Claude Code and current Claude models | [Working with Claude](rehber/09-claude-ile-uygulama.md) · [Draft skills](.claude/skills/) |
+| Copy and fill in | [Templates](sablonlar/README.md) · [Single-file work record](sablonlar/is-kaydi.md) · [Commands](komutlar/README.md) |
 | Apply it on a livestream | [60-minute stream](yayin/01-ilk-yayin.md) · [Series and short content](yayin/02-seri-ve-kisa-icerikler.md) |
 | Check sources and limits | [Sources](KAYNAKLAR.md) |
-| See how the pack was verified | [Verification](DOGRULAMA.md) |
-| Prepare for GitHub publication | [Publishing note](YAYINLAMA.md) |
+| See how the pack was verified | [Verification](DOGRULAMA.md) · [Check script](araclar/kontrol.py) |
+| Share the pack, report your own reproduction | [Publishing note](YAYINLAMA.md) · [Open a reproduction report](https://github.com/AlperenKayalar/ai-ile-calisma-duzeni/issues/new?template=tekrar-raporu.md) |
 
 ---
 
@@ -91,7 +92,8 @@ Stage one: a single job with existing resources and a clear acceptance criterion
 ## Roadmap
 
 - **v0.1** (Sep 9, 2026) — First public version, Turkish
-- **v0.1-en** (Sep 15, 2026) — This working English index
+- **v0.1-en** (Sep 14, 2026) — This working English index
+- **v0.1.1** (Sep 25, 2026) — Claude Code chapter and draft skills, prompt formatting for current models, single-file work record template, automated checks (Turkish)
 - **v0.2** (planned) — First external-user pilot; document what actually reproduced vs. what stalled
 - **v0.3** (planned) — Full English translation of `rehber/`, `sablonlar/`, and `komutlar/`
 

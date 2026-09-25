@@ -9,9 +9,10 @@
 |---|---|---|---|
 | [ ] | [Kaynak okuma / UI geri okuma / dosya açma / test] | [ ] | [Geçti / kaldı / sınanmadı] |
 
-- Teknik doğrulama: [ ]
+- Teknik kontrol: [ ]
 - İnsan kabulü: [Alındı / bekliyor / bu adımda gerekmiyor]
 - Hedefte doğrulama: [ ]
+- Dayanağı olmayan veya dosyadan sınanamayan iddialar: [ ]
 - Kontrol kapsamı dışında: [ ]
 - Düzeltme ve tekrar kontrol sonucu: [ ]
 - Genel durum ve ilk sonraki adım: [ ]
